@@ -1,13 +1,41 @@
 body {
-    background-color: 
+    background-color: rgb(227, 227, 227);
 }
+
 header {
-    background-color: #666;
-    padding: 30px;
+    background-color: rgb(186, 199, 190);
+    padding: 5px 5px 5px 5px;
     text-align: center;
-    font-size: 35px;
-    color: white;
+    color: rgb(154, 154, 154);
 }
+
+.topnav {
+    overflow: hidden;
+    background-color: #BAC7BE;
+    padding: 10px 40px 30px 300px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(84, 106, 83);
+    max-height: 400px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    box-shadow: rgb(187, 187, 187, 1) 0 0px 20px -1px;
+    -webkit-box-shadow: rgb( 187, 187, 187, 1) 0 0px 20px -1px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
 main {
     color: 
 }
